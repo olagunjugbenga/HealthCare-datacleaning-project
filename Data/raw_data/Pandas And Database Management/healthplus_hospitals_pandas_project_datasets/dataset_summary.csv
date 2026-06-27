@@ -1,0 +1,5 @@
+dataset,rows,columns
+patients.csv,1670,8
+doctors.csv,1500,4
+appointments.csv,1800,6
+billing.csv,1700,7

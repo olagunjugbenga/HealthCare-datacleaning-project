@@ -1,0 +1,26 @@
+dataset,column,description
+patients.csv,patient_id,Unique patient identifier; includes some blanks for cleaning practice
+patients.csv,full_name,Patient full name; includes inconsistent casing and duplicates
+patients.csv,gender,"Gender field; includes inconsistent labels such as M, F, male, female"
+patients.csv,age,"Patient age; includes strings, blanks, and invalid negative values"
+patients.csv,phone_number,Patient contact number; includes multiple formats and invalid values
+patients.csv,email,Patient email address; includes invalid and missing emails
+patients.csv,city,Patient city; includes inconsistent casing
+patients.csv,registration_date,Date patient registered; includes mixed date formats
+doctors.csv,doctor_id,Unique doctor identifier
+doctors.csv,doctor_name,Doctor full name
+doctors.csv,specialty,Doctor specialty; includes inconsistent casing and missing values
+doctors.csv,branch,Hospital branch; includes inconsistent casing and missing values
+appointments.csv,appointment_id,Unique appointment identifier
+appointments.csv,patient_id,Links appointment to patient
+appointments.csv,doctor_id,Links appointment to doctor
+appointments.csv,appointment_date,Appointment date with mixed date formats
+appointments.csv,appointment_status,Appointment status with inconsistent labels
+appointments.csv,reason_for_visit,Reason for hospital visit
+billing.csv,invoice_id,Unique invoice identifier
+billing.csv,patient_id,Links billing record to patient
+billing.csv,invoice_date,Invoice date with mixed date formats
+billing.csv,amount_charged,Total amount billed; includes invalid/missing values
+billing.csv,amount_paid,Amount paid by patient
+billing.csv,payment_method,Payment method with inconsistent casing/missing values
+billing.csv,payment_status,Payment status with inconsistent casing/missing values
